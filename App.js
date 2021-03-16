@@ -84,8 +84,7 @@ const App = () => {
   }
 
   return (
-    <>
-      <SafeAreaView>
+    <View >
         {
           loading ?
           <ActivityIndicator 
@@ -95,11 +94,12 @@ const App = () => {
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
             <RDStoryView
-              // actionId={'1'} // optional
+              actionId={'459'} // optional
               onItemClicked={(data) => {
                 console.log('Story data', data)
+                // alert("ok")
               }}
-              style={{ flex: 1 }}
+              style={{ flex: 1,width:"100%" }}
             />
             <Button 
               title='REQUEST PERMISSONS'
@@ -127,15 +127,13 @@ const App = () => {
             />
           </ScrollView>
         }
-      </SafeAreaView>
-    </>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: '#FFF',
-    padding: 20
   },
   divider: {
     height: 20
