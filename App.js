@@ -5,6 +5,7 @@ import {
   ScrollView,
   Button,
   View,
+  Text,
   ActivityIndicator,
   Platform
 } from 'react-native';
@@ -38,7 +39,7 @@ const App = () => {
       const subscribeResult = await euroMessageApi.subscribe(token)
 
       visilabsApi.register(token, (result) => {
-        
+
       })
     }, (notificationPayload) => {
       console.log('notification payload', notificationPayload)
@@ -94,50 +95,120 @@ const App = () => {
     removeEventListener('registrationError')
   }
 
+
+
+  const InApp8 = () => {
+    visilabsApi.customEvent('InApp8', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+
+  const InApp5 = () => {
+    visilabsApi.customEvent('InApp5', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp4 = () => {
+    visilabsApi.customEvent('InApp4', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp7 = () => {
+    visilabsApi.customEvent('InApp7', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp3 = () => {
+    visilabsApi.customEvent('InApp3', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp6 = () => {
+    visilabsApi.customEvent('InApp6', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp1 = () => {
+    visilabsApi.customEvent('Tam ekran görsel button', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
+  const InApp2 = () => {
+    visilabsApi.customEvent('InApp2', {
+      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+    })
+  }
+
   return (
     <View >
-        {
-          loading ?
-          <ActivityIndicator 
+      {
+        loading ?
+          <ActivityIndicator
             size='large'
             animating={loading} /> :
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
-            <RDStoryView
-              actionId={'459'} // optional
-              onItemClicked={(data) => {
-                console.log('Story data', data)
-                // alert("ok")
+
+
+            <Button
+              title='Anket'
+              onPress={() => {
+                InApp5()
               }}
-              style={{ flex: 1,width:"100%" }}
-            />
-            <Button 
-              title='REQUEST PERMISSONS'
-              onPress={() => {
-                requestPermissions()
-              }} 
-            />
-            <Button 
-              title='SET BADGE NUMBER TO 3 (IOS)'
-              onPress={() => {
-                setBadgeNumber()
-              }} 
-            />
-            <Button 
-              title='SEND CUSTOM EVENT'
-              onPress={() => {
-                sendCustomEvent()
-              }} 
             />
             <Button
-              title='GET RECOMMENDATIONS'
-              onPress={async () => {
-                await getRecommendations()
+              title='NPS'
+              onPress={() => {
+                InApp7()
               }}
             />
+            <Button
+              title='Tam ekran görsel'
+              onPress={() => {
+                InApp2()
+              }}
+            />
+            <Button
+              title='Tam ekran görsel button'
+              onPress={() => {
+                InApp1()
+              }}
+            />
+            <Button
+              title='Survey'
+              onPress={() => {
+                InApp6()
+              }}
+            />
+            <Button
+              title='Alert'
+              onPress={() => {
+                InApp8()
+              }}
+            />
+            <Button
+              title='Mini icon'
+              onPress={() => {
+                InApp4()
+              }}
+            />
+            <Button
+              title='popup gorsel baslik metin buton'
+              onPress={() => {
+                InApp3()
+              }}
+            />
+
           </ScrollView>
-        }
+      }
     </View>
   );
 };
@@ -145,6 +216,7 @@ const App = () => {
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: '#FFF',
+    height: "100%"
   },
   divider: {
     height: 20
