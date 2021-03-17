@@ -66,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
                 datasource, realtimeUrl, channel, this, targetUrl, actionUrl, 30000, geofenceUrl, true);
 
         EuroMobileManager euroMobileManager = EuroMobileManager.init(appAlias, huaweiAppAlias, this);
-        euroMobileManager.setPushIntent("com.demo.MainActivity", this);
+        euroMobileManager.setPushIntent("com.akinonproj.MainActivity", this);
     }
   /**
    * Loads Flipper in React Native templates. Call this in the onCreate method with something like

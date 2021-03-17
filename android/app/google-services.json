@@ -153,6 +153,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:342412626964:android:1fc10dc66ba250520bab01",
+        "android_client_info": {
+          "package_name": "com.rnrdv14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342412626964-nug6fl26nbu8g6tm4j0jecadkvnumbch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALD7ZMEK5GqAbeRb_z9m49ubm22_Viz_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342412626964-nug6fl26nbu8g6tm4j0jecadkvnumbch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:342412626964:android:8cfff04d9b598e0d0bab01",
         "android_client_info": {
           "package_name": "com.rnrdv4"
