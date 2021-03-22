@@ -13,7 +13,7 @@
     "@react-native-async-storage/async-storage": "^1.14.1",
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-related-digital": "0.0.14"
+    "react-native-related-digital": "0.0.15"
   },
   "devDependencies": {
     "@babel/core": "7.13.8",

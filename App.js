@@ -156,7 +156,12 @@ const App = () => {
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
-
+            <Button
+              title='REQ'
+              onPress={() => {
+                requestPermissions()
+              }}
+            />
 
             <Button
               title='Anket'
