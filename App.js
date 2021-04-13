@@ -71,7 +71,7 @@ const App = () => {
   }
 
   const sendCustomEvent = () => {
-    visilabsApi.customEvent('*', {
+    visilabsApi.customEvent('expohome', {
       'id': '1',
       'name': 'Product Name'
     })
@@ -99,7 +99,7 @@ const App = () => {
 
   const InApp8 = () => {
     visilabsApi.customEvent('InApp8', {
-      'OM.exVisitorID': 'enes.kaplan@akinon.com',
+      'OM.exVisitorID': 'baris.arslan@euromsg.com',
     })
   }
 
@@ -156,6 +156,14 @@ const App = () => {
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
+              <RDStoryView
+              actionId={'305'} // optional
+              onItemClicked={(data) => {
+                console.log('Story data', data)
+                // alert("ok")
+              }}
+              style={{ flex: 1,width:"100%" }}
+            />
             <Button
               title='REQ'
               onPress={() => {
