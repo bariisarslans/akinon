@@ -71,9 +71,13 @@ const App = () => {
   }
 
   const sendCustomEvent = () => {
-    visilabsApi.customEvent('expohome', {
-      'id': '1',
-      'name': 'Product Name'
+    // visilabsApi.customEvent('pragmamail', {
+    //   'id': '1',
+    //   'name': 'Product Name',
+    //   'OM.exVisitorID':"baris.arslan@euromsg.com"
+    // })
+    visilabsApi.customEvent('home', {
+      'OM.exVisitorID':"baris.arslan@euromsg.com"
     })
   }
 
@@ -146,6 +150,19 @@ const App = () => {
     })
   }
 
+  const getFavoriteAttributeActions = async () => {
+    try {
+      const actionId = '111'
+
+      const favoriteAttrs = await visilabsApi.getFavoriteAttributeActions(actionId)
+      console.log('favoriteAttributeActions', favoriteAttrs)
+    }
+    catch (e) {
+      console.log('favoriteAttributeActions error', e)
+    }
+  }
+
+
   return (
     <View >
       {
@@ -217,6 +234,18 @@ const App = () => {
               title='popup gorsel baslik metin buton'
               onPress={() => {
                 InApp3()
+              }}
+            />
+            <Button
+              title='custom req'
+              onPress={() => {
+                sendCustomEvent()
+              }}
+            />
+            <Button
+              title='GET FAVORITE ATTRIBUTE ACTIONS'
+              onPress={async () => {
+                await getFavoriteAttributeActions()
               }}
             />
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,10 @@
 		8BCF084B25F171540034304D /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCF084A25F171540034304D /* UserNotificationsUI.framework */; };
 		8BCF085625F171540034304D /* RelatedDigitalNotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BCF084725F171540034304D /* RelatedDigitalNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8BCF086E25F172510034304D /* EMNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF086D25F172510034304D /* EMNotificationViewController.swift */; };
+		8BFD0F5C26245EE700BDF5AA /* VisilabsMiniNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0F5B26245EE700BDF5AA /* VisilabsMiniNotificationViewController.xib */; };
+		8BFD0F6426245F0000BDF5AA /* VisilabsFullNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0F6326245F0000BDF5AA /* VisilabsFullNotificationViewController.xib */; };
+		8BFD0F6C26245F9200BDF5AA /* CarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0F6B26245F9200BDF5AA /* CarouselCell.xib */; };
+		8BFD0F7426245FA600BDF5AA /* EMNotificationCarousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0F7326245FA600BDF5AA /* EMNotificationCarousel.xib */; };
 		992C42694AF3CF0C81FEAD18 /* libPods-RelatedDigitalNotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE585608CB9F6E6EEE334583 /* libPods-RelatedDigitalNotificationService.a */; };
 		A31FF752E46B19C6A3ED96C4 /* libPods-RelatedDigitalNotificationContent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1238DA16E181CC43CD0E2AED /* libPods-RelatedDigitalNotificationContent.a */; };
 		C0A01EED1728EC4E3CBB2E34 /* libPods-akinonProj-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68C4480D37F5D9B48D9CB68 /* libPods-akinonProj-tvOSTests.a */; };
@@ -118,6 +122,10 @@
 		8BCF085325F171540034304D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BCF086C25F172510034304D /* RelatedDigitalNotificationContent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelatedDigitalNotificationContent-Bridging-Header.h"; sourceTree = "<group>"; };
 		8BCF086D25F172510034304D /* EMNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMNotificationViewController.swift; sourceTree = "<group>"; };
+		8BFD0F5B26245EE700BDF5AA /* VisilabsMiniNotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VisilabsMiniNotificationViewController.xib; path = Pods/VisilabsIOS/VisilabsIOS/Classes/TargetingAction/InAppNotification/Views/VisilabsMiniNotificationViewController.xib; sourceTree = "<group>"; };
+		8BFD0F6326245F0000BDF5AA /* VisilabsFullNotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VisilabsFullNotificationViewController.xib; path = Pods/VisilabsIOS/VisilabsIOS/Classes/TargetingAction/InAppNotification/Views/VisilabsFullNotificationViewController.xib; sourceTree = "<group>"; };
+		8BFD0F6B26245F9200BDF5AA /* CarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CarouselCell.xib; path = Pods/Euromsg/Euromsg/Classes/EMNotificationCarousel/CarouselCell.xib; sourceTree = "<group>"; };
+		8BFD0F7326245FA600BDF5AA /* EMNotificationCarousel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EMNotificationCarousel.xib; path = Pods/Euromsg/Euromsg/Classes/EMNotificationCarousel/EMNotificationCarousel.xib; sourceTree = "<group>"; };
 		A0A3615D1FA8F5A88F3BCD47 /* libPods-akinonProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-akinonProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A996825BCE9EFFCBA735D76F /* Pods-akinonProj-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akinonProj-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-akinonProj-tvOS/Pods-akinonProj-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B68C4480D37F5D9B48D9CB68 /* libPods-akinonProj-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-akinonProj-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +255,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8BFD0F7326245FA600BDF5AA /* EMNotificationCarousel.xib */,
+				8BFD0F6B26245F9200BDF5AA /* CarouselCell.xib */,
+				8BFD0F6326245F0000BDF5AA /* VisilabsFullNotificationViewController.xib */,
+				8BFD0F5B26245EE700BDF5AA /* VisilabsMiniNotificationViewController.xib */,
 				13B07FAE1A68108700A75B9A /* akinonProj */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* akinonProjTests */,
@@ -482,7 +494,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "akinonProj" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -516,6 +528,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFD0F6426245F0000BDF5AA /* VisilabsFullNotificationViewController.xib in Resources */,
+				8BFD0F5C26245EE700BDF5AA /* VisilabsMiniNotificationViewController.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -547,6 +561,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFD0F7426245FA600BDF5AA /* EMNotificationCarousel.xib in Resources */,
+				8BFD0F6C26245F9200BDF5AA /* CarouselCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,15 +588,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-akinonProj-checkManifestLockResult.txt",
 			);
@@ -608,15 +620,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-akinonProj-akinonProjTests-checkManifestLockResult.txt",
 			);
@@ -630,51 +638,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationContent/Pods-RelatedDigitalNotificationContent-resources.sh",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/loading.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/placeholder.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/bad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/good.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/great.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/okay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/terrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unBad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGood.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGreat.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unOkay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unTerrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsRetryButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationContent/Pods-RelatedDigitalNotificationContent-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/good.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/great.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/okay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unBad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGood.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGreat.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unOkay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unTerrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsRetryButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Smiley",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationContent/Pods-RelatedDigitalNotificationContent-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -686,15 +655,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RelatedDigitalNotificationContent-checkManifestLockResult.txt",
 			);
@@ -708,51 +673,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationService/Pods-RelatedDigitalNotificationService-resources.sh",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/loading.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/placeholder.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/bad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/good.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/great.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/okay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/terrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unBad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGood.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGreat.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unOkay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unTerrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsRetryButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationService/Pods-RelatedDigitalNotificationService-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/good.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/great.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/okay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unBad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGood.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGreat.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unOkay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unTerrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsRetryButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Smiley",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelatedDigitalNotificationService/Pods-RelatedDigitalNotificationService-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -764,15 +690,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-akinonProj-tvOSTests-checkManifestLockResult.txt",
 			);
@@ -786,15 +708,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-akinonProj-tvOS-checkManifestLockResult.txt",
 			);
@@ -808,13 +726,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -826,51 +743,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-resources.sh",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/loading.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/placeholder.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/bad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/good.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/great.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/okay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/terrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unBad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGood.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGreat.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unOkay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unTerrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsRetryButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/good.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/great.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/okay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unBad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGood.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGreat.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unOkay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unTerrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsRetryButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Smiley",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj-akinonProjTests/Pods-akinonProj-akinonProjTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -882,13 +760,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -900,15 +777,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RelatedDigitalNotificationService-checkManifestLockResult.txt",
 			);
@@ -922,51 +795,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-resources.sh",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/loading.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/placeholder.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/bad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/good.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/great.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/okay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/terrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unBad.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGood.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unGreat.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unOkay.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley/unTerrible.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@2x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsCloseButtonBlack@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/VisilabsRetryButton@3x.png",
-				"${PODS_ROOT}/VisilabsIOS/VisilabsIOS/Assets/Images/Smiley",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/good.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/great.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/okay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unBad.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGood.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unGreat.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unOkay.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unTerrible.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsCloseButtonBlack@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VisilabsRetryButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Smiley",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akinonProj/Pods-akinonProj-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -978,13 +812,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "Start Packager";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,13 +827,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "Start Packager";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1117,7 +943,11 @@
 				);
 				INFOPLIST_FILE = akinonProjTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1138,7 +968,11 @@
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = akinonProjTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1166,7 +1000,10 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = akinonProj/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1192,7 +1029,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M383PCDJZ;
 				INFOPLIST_FILE = akinonProj/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1221,7 +1061,10 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "akinonProj-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1253,7 +1096,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "akinonProj-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1283,7 +1129,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "akinonProj-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1311,7 +1161,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "akinonProj-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1373,15 +1227,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -1426,14 +1283,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1456,7 +1316,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = RelatedDigitalNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.akinonProj.RelatedDigitalNotificationService;
@@ -1488,7 +1352,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = RelatedDigitalNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.akinonProj.RelatedDigitalNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1517,7 +1385,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = RelatedDigitalNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.akinonProj.RelatedDigitalNotificationContent;
@@ -1549,7 +1421,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = RelatedDigitalNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.akinonProj.RelatedDigitalNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
